@@ -4,7 +4,7 @@
     "description": "Tab Organizer Extension",
     "version": "1.0",
     "action": {
-      "default_popup": "tabOrganizer.html",
-      "default_icon": "tempImage.png"
+      "default_popup": "popup/tabOrganizer.html",
+      "default_icon": "images/tempImage.png"
     }
   }

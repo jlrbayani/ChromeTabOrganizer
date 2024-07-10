@@ -13,3 +13,14 @@ This is a tentative list of features to work on as we proceed with this project.
 3. To do the above automatically or not. The user can choose either or in the user interface. 
 
 4. Have a **simple user interface** to allow functionalities above to work with one another or be separated. (ie. enable website sorting while disabling time based sorting or allowing both to work in some fashion concurrently; this should be scalable if we plan on adding more categorization features in the future)
+
+## How to Use Extension During Development
+Temporary instructions to use this extension. 
+
+1. Fork the repository at https://github.com/jlrbayani/ChromeTabOrganizer
+
+2. Open the Extensions Icon on Chrome and go to "Manage extensions" 
+
+3. Enable **Developer Mode** and click "Load unpacked" to search for the folder of the forked repository
+
+4. This extension should now be added, and could be reloaded from this page. NOTE: Extension reload is required if updates are made to manifest.json, any service worker code (ie. background tasks), or content scripts
