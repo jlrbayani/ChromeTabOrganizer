@@ -24,3 +24,15 @@ Temporary instructions to use this extension.
 3. Enable **Developer Mode** and click "Load unpacked" to search for the folder of the forked repository
 
 4. This extension should now be added, and could be reloaded from this page. NOTE: Extension reload is required if updates are made to manifest.json, any service worker code (ie. background tasks), or content scripts
+
+5. Press the "Group Tabs" button to group the tabs, but for now only tabs with the url beginning of "https://developer.chrome.com/docs/webstore/*" or
+      "https://developer.chrome.com/docs/extensions/*" will be affected and be put under the 'DOCS' title. 
+
+6. NOTE: For now popup.css, popup.html, and popup.js are temporary, but popup.js does a good job at showing the possible code flow for features 1 and 2. If you click on the 'DOCS' tab grouping it has different options for saving, ungrouping, or deleting the group (and etc.) of tabs. For feature 1 to work on all tabs, we should look into the "tabs" permission in the Tabs API. 
+
+## List of References
+
+1. https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world
+
+2. https://developer.chrome.com/docs/extensions/get-started/tutorial/popup-tabs-manager
+

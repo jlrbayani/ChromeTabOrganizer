@@ -1,6 +1,27 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Chrome Tab Organizer </title>
+        <link rel="stylesheet" href="popup.css" />
+    </head>
     <body>
-        <h1> Tab Organizer </h1>
-        <script src="popup/popup.js"></script>
+        <div>
+            <template id="li_template">
+                <li>
+                  <a>
+                    <h3 class="title">Tab Title</h3>
+                    <p class="pathname">Tab Pathname</p>
+                  </a>
+                </li>
+            </template>
+          
+            <h1>Chrome Tab Organizer</h1>
+            <button>Group Tabs</button>
+            <ul></ul>
+
+            <script src="popup.js" type="module"></script>
+        </div>
     </body>
 </html>

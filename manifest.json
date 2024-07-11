@@ -3,8 +3,16 @@
     "name": "Tab Organizer Extension",
     "description": "Tab Organizer Extension",
     "version": "1.0",
+    "icons": {
+      "16": "images/tempImage.png",
+      "32": "images/tempImage.png",
+      "48": "images/tempImage.png",
+      "128": "images/tempImage.png"
+    }, 
     "action": {
       "default_popup": "popup/tabOrganizer.html",
       "default_icon": "images/tempImage.png"
-    }
+    }, 
+    "host_permissions": ["https://developer.chrome.com/*"], 
+    "permissions": ["tabGroups"]
   }
